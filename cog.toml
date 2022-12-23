@@ -1,0 +1,14 @@
+ignore_merge_commits = false
+branch_whitelist = ["main"]
+pre_bump_hooks = []
+post_bump_hooks = []
+
+[commit_types]
+
+[changelog]
+path = "CHANGELOG.md"
+authors = [
+	{ signature = "Ajit Krishna", username = "JitPackJoyride" }
+]
+
+[bump_profiles]
